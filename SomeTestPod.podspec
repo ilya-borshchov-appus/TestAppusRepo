@@ -1,40 +1,19 @@
-#
-# Be sure to run `pod lib lint SomeTestPod.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "SomeTestPod"
   s.version          = "0.1.0"
-  s.summary          = "A short description of SomeTestPod."
+  s.summary          = "This is a short summary description of custom pod" 
+  s.description      = "This is custom pod just for test This is custom pod just for test This is custom pod just for testThis is custom pod just for test This is custom pod just for test This is custom pod just for test This is custom pod just for test This is custom pod just for test"
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
-  s.description      = <<-DESC
-                       DESC
-
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/SomeTestPod"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/ilya-borshchov-appus/SomeTestPod"
   s.license          = 'MIT'
   s.author           = { "ilya.borshchov.appus" => "ilya.borshchov@appus.me" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/SomeTestPod.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/ilya-borshchov-appus/SomeTestPod.git", :tag => "0.1.0" }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
-
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
     'SomeTestPod' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
